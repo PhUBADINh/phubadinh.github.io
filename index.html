@@ -6,75 +6,103 @@
   <title>Resume</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gray-100 py-10">
-  <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
+<body class="bg-gradient-to-br from-purple-100 to-indigo-200 py-10">
+  <div class="max-w-4xl mx-auto bg-white shadow-xl rounded-lg p-8">
     <!-- Header -->
     <header class="text-center border-b pb-6 mb-6">
-      <h1 class="text-3xl font-bold text-gray-800">John Doe</h1>
-      <p class="text-gray-600 mt-2">Frontend Developer | UX Designer</p>
-      <p class="text-gray-500 mt-1">
-        Email: johndoe@example.com | Phone: +1 123-456-7890
+      <div class="flex justify-center mb-4">
+        <img src="/src/img/66022860.jpg" alt="Profile Picture" class="object-cover w-32 h-32 rounded-full border-4 border-purple-500 shadow-lg transition-transform transform hover:scale-110">
+      </div>
+      <h1 class="text-4xl font-bold text-purple-700 mt-4 hover:text-purple-900 transition-colors duration-300">PHUBADIN RUEANGRUNG</h1>
+      <p class="text-purple-600 mt-2">Frontend Developer</p>
+      <p class="text-purple-500 mt-1">
+        Email: Pubadin.h@gmail.com | Phone: 065-810-5363
       </p>
     </header>
 
     <!-- About -->
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-gray-800 mb-3">About Me</h2>
-      <p class="text-gray-600">
-        Passionate Frontend Developer with 5+ years of experience designing user-friendly and visually appealing web applications. Skilled in HTML, CSS, JavaScript, and frameworks like React and Vue.js. Dedicated to delivering high-quality work with a focus on performance and accessibility.
-      </p>
+      <h2 class="text-xl font-semibold text-purple-700 mb-3">About Me</h2>
+      <div class="bg-gradient-to-r from-purple-500 to-indigo-600 text-white p-6 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300">
+        <p class="text-lg leading-relaxed">
+          I am a passionate and dedicated Software Engineering student at the University of Phayao, with a strong foundation in programming and web development. I have developed skills in <span class="font-semibold">HTML</span>, <span class="font-semibold">CSS</span>, <span class="font-semibold">JavaScript</span>, and am eager to apply my knowledge in real-world projects. My academic projects have allowed me to enhance my <span class="font-semibold">problem-solving abilities</span>, teamwork, and attention to detail.
+        </p>
+        <p class="mt-4 text-lg leading-relaxed">
+          I am excited to contribute to a dynamic team where I can continue to learn and grow professionally. I'm motivated by challenges and always strive to turn complex problems into seamless, user-friendly experiences.
+        </p>
+      </div>
     </section>
 
     <!-- Skills -->
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-gray-800 mb-3">Skills</h2>
-      <div class="grid grid-cols-2 gap-4">
-        <ul class="list-disc list-inside">
-          <li>HTML5 & CSS3</li>
-          <li>JavaScript (ES6+)</li>
-          <li>React & Redux</li>
-          <li>Tailwind CSS</li>
-        </ul>
-        <ul class="list-disc list-inside">
-          <li>UI/UX Design</li>
-          <li>Figma & Adobe XD</li>
-          <li>Version Control (Git)</li>
-          <li>Agile Methodologies</li>
-        </ul>
+      <h2 class="text-xl font-semibold text-purple-700 mb-3">Skills</h2>
+      <div class="grid grid-cols-2 gap-6">
+        <div class="flex items-center space-x-2">
+          <img src="https://img.icons8.com/color/48/000000/html-5.png" alt="HTML5 Icon" class="w-8 h-8">
+          <span class="text-gray-600">HTML5</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3 Icon" class="w-8 h-8">
+          <span class="text-gray-600">CSS3</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="https://img.icons8.com/color/48/000000/javascript.png" alt="JavaScript Icon" class="w-8 h-8">
+          <span class="text-gray-600">JavaScript</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="/src/img/React-icon.svg.png" alt="React Icon" class="w-8 h-8">
+          <span class="text-gray-600">React</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="https://img.icons8.com/color/48/000000/vue-js.png" alt="Vue.js Icon" class="w-8 h-8">
+          <span class="text-gray-600">Vue.js</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="https://img.icons8.com/color/48/000000/tailwindcss.png" alt="Tailwind CSS Icon" class="w-8 h-8">
+          <span class="text-gray-600">Tailwind CSS</span>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="https://img.icons8.com/color/48/000000/figma.png" alt="Figma Icon" class="w-8 h-8">
+          <span class="text-gray-600">Figma</span>
+        </div>
       </div>
     </section>
 
     <!-- Experience -->
     <section class="mb-8">
-      <h2 class="text-xl font-semibold text-gray-800 mb-3">Experience</h2>
-      <div class="space-y-4">
-        <div>
-          <h3 class="font-semibold text-gray-700">Frontend Developer</h3>
-          <p class="text-gray-500 text-sm">Tech Company Inc. | Jan 2020 - Present</p>
-          <ul class="list-disc list-inside mt-2 text-gray-600">
-            <li>Developed responsive web applications using React and Tailwind CSS.</li>
-            <li>Collaborated with designers to create seamless user experiences.</li>
-            <li>Optimized applications for speed and scalability.</li>
-          </ul>
-        </div>
-        <div>
-          <h3 class="font-semibold text-gray-700">Web Designer</h3>
-          <p class="text-gray-500 text-sm">Creative Agency | Jun 2016 - Dec 2019</p>
-          <ul class="list-disc list-inside mt-2 text-gray-600">
+        <h2 class="text-xl font-semibold text-purple-700 mb-3">Experience</h2>
+        <div class="space-y-6">
+        <!-- First Experience -->
+        <div class="p-4 border-l-4 border-purple-500 bg-gray-50 hover:bg-gray-100 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            <h3 class="font-semibold text-purple-600">Frontend Developer & Web Designer</h3>
+            <p class="text-gray-500 text-sm">Ontravel</p>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
             <li>Designed website layouts and wireframes using Figma.</li>
+            <li>Developed responsive web applications using Vue JS and Tailwind CSS.</li>
+            <li>Collaborated with designers to create seamless user experiences.</li>
+            </ul>
+        </div>
+    
+        <!-- Second Experience -->
+        <div class="p-4 border-l-4 border-purple-500 bg-gray-50 hover:bg-gray-100 rounded-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
+            <h3 class="font-semibold text-purple-600">Frontend Developer & Web Designer</h3>
+            <p class="text-gray-500 text-sm">Medisee</p>
+            <ul class="list-disc list-inside mt-2 text-gray-600">
+            <li>Developed responsive web applications using Vue JS and Tailwind CSS.</li>
             <li>Implemented cross-browser compatible websites.</li>
             <li>Worked closely with clients to meet design requirements.</li>
-          </ul>
+            </ul>
         </div>
-      </div>
+        </div>
     </section>
+  
 
     <!-- Education -->
     <section>
-      <h2 class="text-xl font-semibold text-gray-800 mb-3">Education</h2>
-      <div>
-        <h3 class="font-semibold text-gray-700">Bachelor of Science in Computer Science</h3>
-        <p class="text-gray-500 text-sm">XYZ University | Graduated: 2016</p>
+      <h2 class="text-xl font-semibold text-purple-700 mb-3">Education</h2>
+      <div class="p-4 border-l-4 border-purple-500 bg-gray-50 hover:bg-gray-100 rounded-lg transition-all duration-300">
+        <h3 class="font-semibold text-purple-600">University of Phayao</h3>
+        <p class="text-gray-500 text-sm">Software Engineering | 2023 - Present</p>
       </div>
     </section>
   </div>
